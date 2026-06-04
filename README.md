@@ -1,7 +1,7 @@
 TECH STACK:
 
 Scraper - Go
-\n HTTP Client - Go
+\t HTTP Client - Go
 API Framework - Python
 Data Validation - Python
 ML/Predictions - Python
