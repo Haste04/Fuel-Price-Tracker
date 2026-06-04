@@ -5,7 +5,9 @@ Language: Go
 
 Backend API
 Language: Python
+
 Data Validation: Python 
+
 Database Driver: Python 
 
 Machine Learning / Predictions
