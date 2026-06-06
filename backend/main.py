@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from db.database import init_db
-from routers import ingest, prices
+from routers import ingest, prices, predictions
 
 app = FastAPI(
     title="Fuel Tracker API",
@@ -23,6 +23,7 @@ def startup():
 
 app.include_router(ingest.router)
 app.include_router(prices.router)
+app.include_router(predictions.router)
 
 @app.get("/")
 def root():
